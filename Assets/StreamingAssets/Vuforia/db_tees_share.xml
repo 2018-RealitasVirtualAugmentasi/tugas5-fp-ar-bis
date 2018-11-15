@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="markertestfinal" size="400.000000 370.984467" />
+    <ImageTarget name="markerbaju2" size="400.000000 402.734375" />
+    <ImageTarget name="markerbaju" size="400.000000 389.625366" />
     <ImageTarget name="newmarker" size="400.000000 375.560089" />
     <ImageTarget name="markerjelek" size="400.000000 370.656372" />
     <ImageTarget name="markerbaru" size="500.000000 521.416809" />

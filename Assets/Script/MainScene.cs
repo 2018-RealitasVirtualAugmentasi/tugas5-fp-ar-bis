@@ -12,6 +12,13 @@ public class MainScene : MonoBehaviour {
 	public Material mSloth;
 	public Material mUnicorn;
 
+	public Material mBurger;
+	public Material mSpongebob;
+	public Material mMonster;
+	public Material mPattrick;
+	public Material mBear;
+	public Material mPanda;
+
 
 	void Start () {
 
@@ -26,6 +33,24 @@ public class MainScene : MonoBehaviour {
 		}
 		else if (TypeMotif.motif == 4) {
 			GetComponent<Renderer> ().material = mUnicorn;
+		}
+		else if (TypeMotif.motif == 5) {
+			GetComponent<Renderer> ().material = mBurger;
+		}
+		else if (TypeMotif.motif == 7) {
+			GetComponent<Renderer> ().material = mSpongebob;
+		}
+		else if (TypeMotif.motif == 8) {
+			GetComponent<Renderer> ().material = mMonster;
+		}
+		else if (TypeMotif.motif == 9) {
+			GetComponent<Renderer> ().material = mPattrick;
+		}
+		else if (TypeMotif.motif == 10) {
+			GetComponent<Renderer> ().material = mBear;
+		}
+		else if (TypeMotif.motif == 11) {
+			GetComponent<Renderer> ().material = mPanda;
 		}
 
 

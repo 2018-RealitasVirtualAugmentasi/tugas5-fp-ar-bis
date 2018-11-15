@@ -40,6 +40,36 @@ public class changeMaterial : MonoBehaviour {
 		SceneManager.LoadScene ("tesFP");
 	}
 
+	public void BurgerClick(){
+		TypeMotif.motif = 5;
+		SceneManager.LoadScene ("tesFP");
+	}
+
+	public void SpongebobClick(){
+		TypeMotif.motif = 7;
+		SceneManager.LoadScene ("tesFP");
+	}
+
+	public void MonsterClick(){
+		TypeMotif.motif = 8;
+		SceneManager.LoadScene ("tesFP");
+	}
+
+	public void PatrickClick(){
+		TypeMotif.motif = 9;
+		SceneManager.LoadScene ("tesFP");
+	}
+
+	public void BearClick(){
+		TypeMotif.motif = 10;
+		SceneManager.LoadScene ("tesFP");
+	}
+
+	public void PandaClick(){
+		TypeMotif.motif = 11;
+		SceneManager.LoadScene ("tesFP");
+	}
+
 
 
 }
